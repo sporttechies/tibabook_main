@@ -1,0 +1,10 @@
+packages:
+  - 'apps/*'
+  - 'services/*'
+
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAgeExclude:
+  - '@next/*'
+  - next
